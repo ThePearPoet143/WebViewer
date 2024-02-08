@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="199cace7f506455c9858295444fc6e38" Name="Diagram1">
+        <EntityTypeShape EntityType="DBModel.ArchivedSlideRun" Width="1.5" PointX="18" PointY="67.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.ArchivedTarget" Width="1.5" PointX="20.25" PointY="74.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.AutoExposureMethod" Width="1.5" PointX="3" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.AutoFocusMethod" Width="1.5" PointX="3" PointY="40.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.BleedThroughCheckMethod" Width="1.5" PointX="3" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.BorderFindMethod" Width="1.5" PointX="3" PointY="47.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.BoundReportElement" Width="1.5" PointX="18.5" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.BoundReportSection" Width="1.5" PointX="16.25" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Cassette" Width="1.5" PointX="5.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.DepositionArea" Width="1.5" PointX="8.25" PointY="57.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.DepositionAreaMethodAttributeValue" Width="1.5" PointX="13.5" PointY="54.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.DepositionShape" Width="1.5" PointX="10.5" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.DMLAuditLog" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.DotCountingMethod" Width="1.5" PointX="3" PointY="51.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.DotCountingMethodAttributeValue" Width="1.5" PointX="5.25" PointY="51.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.ExplorerLog" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Field" Width="1.5" PointX="9.75" PointY="78" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.FieldChannel" Width="1.5" PointX="10.5" PointY="56.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.FilterSet" Width="1.5" PointX="3" PointY="33.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.FindBestSliceMethod" Width="1.5" PointX="3" PointY="55.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.GenericApp" Width="1.5" PointX="8.25" PointY="63.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.GenericAppConfig" Width="1.5" PointX="10.5" PointY="66" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.GenericAppMethod" Width="1.5" PointX="3" PointY="58.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.GenericAppScan" Width="1.5" PointX="5.25" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.GenericAppScanConfig" Width="1.5" PointX="7.5" PointY="88.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.GenericAppScanConfigMethodAttributeValue" Width="1.5" PointX="9.75" PointY="89.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.GenericAppScanStructure" Width="1.5" PointX="10.5" PointY="74" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.GenericChannelConfig" Width="1.5" PointX="5.25" PointY="56.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.GenericChannelConfigMethodAttributeValue" Width="1.5" PointX="7.5" PointY="54.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.HelpText" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.IkoGroup" Width="1.5" PointX="5.75" PointY="84" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.IkoGroupUser" Width="1.5" PointX="6" PointY="67.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.IkoLog" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.IkoUser" Width="1.5" PointX="0.75" PointY="64.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.IkoUserRole" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.ImageLocation" Width="1.5" PointX="13.5" PointY="50.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Laboratory" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.MethodAttribute" Width="1.5" PointX="5.25" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.NewSlideTemplate" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.OrphanedTarget" Width="1.5" PointX="12" PointY="79" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.OrphanedTargetChannel" Width="1.5" PointX="10.5" PointY="53.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Patient" Width="1.5" PointX="5.75" PointY="94.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.PostprocessingMethod" Width="1.5" PointX="3" PointY="64.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.PreprocessingMethod" Width="1.5" PointX="3" PointY="68.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.ProbeQcSignal" Width="1.5" PointX="15.75" PointY="58" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.PurgedSlideRun" Width="1.5" PointX="18" PointY="64.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.ReorderFieldVisitSequenceMethod" Width="1.5" PointX="3" PointY="71.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Report" Width="1.5" PointX="6" PointY="64" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.ReportElement" Width="1.5" PointX="16.25" PointY="52.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.ReportSection" Width="1.5" PointX="14" PointY="40.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.ReviewedDotCount" Width="1.5" PointX="18.75" PointY="58.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.ReviewedTarget" Width="1.5" PointX="20.25" PointY="77.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Sample" Width="1.5" PointX="5.75" PointY="99.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.SampleType" Width="1.5" PointX="6.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.ScanAreaRedefiningMethod" Width="1.5" PointX="3" PointY="75.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Scanner" Width="1.5" PointX="13.5" PointY="46.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.SkipFieldConditionMethod" Width="1.5" PointX="3" PointY="78.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Slide" Width="1.5" PointX="8" PointY="70.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.SlideAdaptationMethod" Width="1.5" PointX="3" PointY="82.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.SlideArea" Width="1.5" PointX="13.5" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.SlideAttribute" Width="1.5" PointX="11" PointY="70.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.SlideAttributeValue" Width="1.5" PointX="13.25" PointY="72.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.SlideRun" Width="1.5" PointX="15.75" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.SlideRunAppScan" Width="1.5" PointX="7.5" PointY="78.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.SlideRunAppScanStatistic" Width="1.5" PointX="9.75" PointY="82.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.SlideRunBrightField" Width="1.5" PointX="13.25" PointY="68.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.SlideRunBrightFieldAssociation" Width="1.5" PointX="21" PointY="66.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.SlideRunLock" Width="1.5" PointX="21" PointY="62.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.SlideStatu" Width="1.5" PointX="5.75" PointY="102" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.SlideType" Width="1.5" PointX="5.75" PointY="104.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.SlideTypeAssociation" Width="1.5" PointX="13.5" PointY="62.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.StopConditionMethod" Width="1.5" PointX="3" PointY="93" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Structure" Width="1.5" PointX="8.25" PointY="94.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.StructureCategory" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Study" Width="1.5" PointX="12.75" PointY="75.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.StudySlideRun" Width="1.5" PointX="18" PointY="74" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.StudyTarget" Width="1.5" PointX="17.25" PointY="78" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.StudyUser" Width="1.5" PointX="18" PointY="71.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.sysdiagram" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Target" Width="1.5" PointX="15" PointY="77.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.TargetChannel" Width="1.5" PointX="13.5" PointY="57.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.TargetClassBinningMethod" Width="1.5" PointX="3" PointY="96.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.TargetClassification" Width="1.5" PointX="12.75" PointY="82.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.TargetClassificationMethod" Width="1.5" PointX="3" PointY="100" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.TargetClassificationSet" Width="1.5" PointX="8.25" PointY="50.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.TargetReviewStatu" Width="1.5" PointX="12.75" PointY="87.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.TargetSelectionMethod" Width="1.5" PointX="3" PointY="103.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.TargetStatistic" Width="1.5" PointX="15" PointY="84.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Version" Width="1.5" PointX="8.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.VisitSequenceMethod" Width="1.5" PointX="3" PointY="107" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Exp_Slide" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="DBModel.FK__ArchivedS__Slide__02925FBF" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__ArchivedT__Archi__0662F0A3" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__ArchivedT__Targe__075714DC" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__AutoExpos__UserI__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericCh__AutoE__6EC0713C" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__AutoFocus__UserI__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericCh__AutoF__6DCC4D03" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__BleedThro__UserI__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Bleed__4F47C5E3" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__BorderFin__UserI__10566F31" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Depositio__Borde__7B264821" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__BoundRepo__Bound__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__BoundRepo__Repor__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__BoundRepo__Repor__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__BoundRepo__Repor__1FCDBCEB" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Cassette__Scanne__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Slide__CassetteI__27F8EE98" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Depositio__Depos__078C1F06" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Depositio__Depos__45544755" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Depositio__UserI__01D345B0" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideType__Depos__18B6AB08" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Depositio__Attri__46486B8E" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__DotCounti__DotCo__4A18FC72" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__DotCounti__UserI__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericCh__DotCo__72910220" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__DotCounti__Attri__4B0D20AB" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Field__SlideRunA__5D60DB10" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__FieldChan__Field__6319B466" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__OrphanedT__Field__7720AD13" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Target__FieldID__6D9742D9" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__FieldChan__Gener__640DD89F" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericCh__Filte__6CD828CA" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__FindBestS__UserI__32AB8735" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericCh__FindB__74794A92" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Gener__3B40CD36" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Gener__40F9A68C" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Gener__47A6A41B" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Repor__395884C4" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Gener__5D95E53A" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Manua__43D61337" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideType__Gener__19AACF41" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Study__GenericAp__0B27A5C0" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_GenericAppConfig_TargetClassificationSet" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__UserI__2CF2ADDF" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Gener__57DD0BE4" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Gener__5E8A0973" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Gener__6CF8245B" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__PostP__531856C7" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Prepr__4A8310C6" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__ReOrd__4E53A1AA" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__ScanA__4D5F7D71" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Slide__4B7734FF" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__StopC__5224328E" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Targe__4C6B5938" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Targe__503BEA1C" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Targe__51300E55" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideRunA__Gener__589C25F3" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Gener__3BCADD1B" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Visit__65370702" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Visit__6DEC4894" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericCh__Gener__6AEFE058" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Attri__3CBF0154" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericAp__Struc__58D1301D" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericCh__Gener__6BE40491" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericCh__Gener__408F9238" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericCh__SkipF__73852659" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__OrphanedT__Gener__7AF13DF7" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__TargetCha__Gener__7EC1CEDB" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__GenericCh__Attri__4183B671" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__IkoGroupU__IkoGr__52AE4273" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Slide__IkoGroupI__2EA5EC27" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__IkoGroupU__IkoUs__51BA1E3A" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Postproce__UserI__1BC821DD" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Preproces__UserI__160F4887" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__PurgedSli__UserI__324172E1" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__ReorderFi__UserI__0A9D95DB" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__ScanAreaR__UserI__68487DD7" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SkipField__UserI__2739D489" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Slide__UserID__28ED12D1" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideAdap__UserI__2180FB33" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideRun__UserID__42ACE4D4" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideRunB__UserI__52E34C9D" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideRunL__UserI__29AC2CE0" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__StopCondi__UserI__04E4BC85" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__StudyUser__UserI__14B10FFA" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__TargetCla__UserI__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__TargetCla__UserI__7F2BE32F" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__TargetSel__UserI__6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__VisitSequ__UserI__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Scanner__ImageLo__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideRun__ImageL__40C49C62" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideRunB__Image__382F5661" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__OrphanedT__Orpha__79FD19BE" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Slide__PatientID__2704CA5F" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__ProbeQcSi__Targe__351DDF8C" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__PurgedSli__Slide__314D4EA8" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__ReviewedD__Revie__23F3538A" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__ReviewedD__Targe__24E777C3" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__ReviewedT__Study__1E3A7A34" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__ReviewedT__Study__1F2E9E6D" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__ReviewedT__Targe__2022C2A6" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Slide__SampleID__2DB1C7EE" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideRun__Scanne__41B8C09B" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Slide__SlideStat__2CBDA3B5" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Slide__SlideType__29E1370A" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideAttr__Slide__336AA144" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideRun__SlideI__3EDC53F0" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideRunB__Slide__373B3228" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideRun__SlideA__3FD07829" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideAttr__Attri__345EC57D" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideRun__SlideT__4589517F" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideRunA__Slide__57A801BA" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideRunB__Slide__4B422AD5" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideRunL__Slide__28B808A7" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__StudySlid__Slide__0FEC5ADD" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideRunA__Slide__60FC61CA" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideRunB__Slide__4C364F0E" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__SlideType__Slide__17C286CF" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__StudySlid__Study__0EF836A4" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__StudyTarg__Study__1975C517" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__StudyUser__Study__13BCEBC1" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__StudyTarg__Targe__1A69E950" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Target__ParentTa__6E8B6712" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Target__TargetCl__6F7F8B4B" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__Target__TargetRe__7073AF84" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__TargetCha__Targe__7DCDAAA2" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__TargetCla__Targe__117F9D94" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK__TargetSta__Targe__5BCD9859" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
